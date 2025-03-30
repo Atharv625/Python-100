@@ -1,0 +1,1 @@
+# it's about pacakeges like tensoflow, keras, numpy, pandas, matplotlib, scikit-learn, etc.

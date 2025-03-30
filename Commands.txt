@@ -1,0 +1,76 @@
+### 🚀 Step-by-Step Git Commands for VS Code  
+
+---
+
+**📌 1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/Atharv625/Python-100.2.git
+cd Python-100.2
+```
+
+---
+
+**📌 2️⃣ Check Your Branch**  
+```sh
+git branch
+```
+If it shows `master`, rename it to `main`:  
+```sh
+git branch -M main
+```
+
+---
+
+**📌 3️⃣ Create or Edit a Text File**  
+```sh
+echo "This is a sample text file." > notes.txt
+```
+
+---
+
+**📌 4️⃣ Stage Changes**  
+```sh
+git add .
+```
+
+---
+
+**📌 5️⃣ Commit Changes**  
+```sh
+git commit -m "Added notes.txt"
+```
+
+---
+
+**📌 6️⃣ Pull Latest Changes Before Pushing**  
+```sh
+git pull origin main --rebase
+```
+
+---
+
+**📌 7️⃣ Push Changes to GitHub**  
+```sh
+git push origin main
+```
+
+---
+
+**📌 8️⃣ Handle Merge Conflicts (If Needed)**  
+```sh
+git status
+git add .
+git rebase --continue
+```
+
+---
+
+**📌 9️⃣ If Push is Rejected and You Want to Force It**  
+⚠️ **Warning: This overwrites remote changes!**  
+```sh
+git push --force origin main
+```
+
+---
+
+### 🎉 🔥 Your Text File is Now Synced with GitHub! 🚀
