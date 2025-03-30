@@ -4,8 +4,8 @@
 
 **📌 1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/Atharv625/Python-100.2.git
-cd Python-100.2
+git clone https://github.com/Atharv625/Python-100.git
+cd Python-100
 ```
 
 ---
