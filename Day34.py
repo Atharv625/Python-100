@@ -1,0 +1,12 @@
+dict={10:1,11:25,96:63,20:96}
+dict2={22:69,36:89,31:32}
+dict.update(dict2)
+print(dict)
+dict.clear()
+print(dict)
+dict={10:1,11:25,96:63,20:96}
+dict2={22:69,36:89,31:32}
+dict.pop(10)
+print(dict)
+dict.popitem()
+print(dict)
